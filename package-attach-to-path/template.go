@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Myriad-Dreamin/market/lib/parser"
+	"github.com/Myriad-Dreamin/go-parse-package"
 	"github.com/Myriad-Dreamin/market/lib/sugar"
 	"os"
 	"path/filepath"

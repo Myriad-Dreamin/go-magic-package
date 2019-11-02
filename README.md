@@ -5,8 +5,7 @@
 
 ```bash
 >> git clone https://github.com/Myriad-Dreamin/go-magic-package
->> go generate
->> go run .
+>> go generate && go run .
 github.com/Myriad-Dreamin/go-magic-package path\to\gopath\github.com\Myriad-Dreamin\go-magic-package
 path\to\gopath\github.com\Myriad-Dreamin\go-magic-package
 ```
@@ -22,7 +21,6 @@ go install github.com/Myriad-Dreamin/go-magic-package/package-attach-to-path
 generate runtime probe
 
 ```go
-
 //with install
 //go:generate package-attach-to-path -generate_init
 
@@ -33,6 +31,10 @@ generate runtime probe
 register package->file path to map
 
 ```go
+//with install
+//go:generate package-attach-to-path -generate_register_map
+
+//without install
 //go:generate go run github.com/Myriad-Dreamin/go-magic-package/package-attach-to-path -generate_register_map
 ```
 
