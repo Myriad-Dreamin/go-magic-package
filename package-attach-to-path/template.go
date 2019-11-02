@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/Myriad-Dreamin/go-parse-package"
-	"github.com/Myriad-Dreamin/market/lib/sugar"
+	"github.com/Myriad-Dreamin/minimum-lib/sugar"
 	"os"
 	"path/filepath"
 	"strings"
